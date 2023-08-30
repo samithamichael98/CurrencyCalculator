@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Yantramanav:wght@300;500&family=Yeseva+One&display=swap');
+body{
+
+    background:url("2.jpg");
+    background-position: fill;
+    background-size: center;
+}
+
+H1{
+    text-align: center;
+    color:black;
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 10px
+}
+
+
+.container{
+    padding: 400px;
+    margin-top: 50px;
+    width: 800px;
+    height: 300px;
+    font-size: 50px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: "Bebas Neue";
+    }
+
+.convert{
+    display: inline-flex;
+}
+
+p{
+    padding-right: 250px;
+    font-weight:bold
+}
+
+input[type="number"]{
+    margin-top: 0%;
+    height: 40px; 
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    left:50%;
+
+}
+
+select{
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid gray;
+    outline: none;
+}
+
+input[type="submit"]{
+
+    margin-left: 190px;
+    margin-top: 50px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    background:black;
+    color:white;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+}
+
+#results{
+
+    width: 300px;
+    color:black;
+    background-color:gray;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
